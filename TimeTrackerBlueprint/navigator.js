@@ -6,7 +6,7 @@ import TimeTracker from "./screens/timeTracker";
 
 import Home from "./screens";
 
-export const TimeTrackerBlueprintNavigator = createStackNavigator(
+export default TimeTrackerBlueprintNavigator = createStackNavigator(
   {
     Home: { screen: Home },
     TimeTrackerList: { screen: TimeTrackerList },
